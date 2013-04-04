@@ -3,6 +3,7 @@ Deface::Override.new(:virtual_path => 'operatingsystems/_form',
                      :insert_after => 'code[erb-loud]:contains("families_as_collection")',
                      :partial => 'os_preference/os_form.html.erb')
 
+=begin
 Deface::Override.new(:virtual_path => 'common/os_selection/_architecture',
                      :name => 'os_selection',
                      :replace => 'code[erb-loud]:contains("operatingsystem_id")',
@@ -16,3 +17,4 @@ Deface::Override.new(:virtual_path => 'common/os_selection/_architecture',
   %>
 ORIG
                      :partial => 'os_preference/os_selection.html.erb')
+=end
