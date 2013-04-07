@@ -1,6 +1,6 @@
 Deface::Override.new(:virtual_path => 'operatingsystems/_form',
                      :name => 'os_form',
-                     :insert_after => 'code[erb-loud]:contains("families_as_collection")',
+                     :insert_after => 'code[erb-loud]:contains("select_f"):contains("families_as_collection")',
                      :partial => 'os_preference/os_form.html.erb')
 
 =begin
